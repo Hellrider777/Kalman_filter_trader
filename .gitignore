@@ -1,1 +1,22 @@
+# Virtual Environments (Exclude virtualenv folders)
 myenv/
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Large Log files (Optional - adjust as needed)
+*.csv
+*.log
+
+# IDE & System files
+.vscode/
+.idea/
+.DS_Store
